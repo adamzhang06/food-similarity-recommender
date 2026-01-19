@@ -1,0 +1,15 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Data
+data/raw/
+data/processed/
+
+# macOS
+.DS_Store
+
+# Xcode
+ios-app/build/
+ios-app/*.xcworkspace
