@@ -1,0 +1,5 @@
+pandas
+numpy
+ijson
+sentence-transformers
+scikit-learn
