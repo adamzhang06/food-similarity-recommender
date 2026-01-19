@@ -13,3 +13,4 @@ data/processed/
 # Xcode
 ios-app/build/
 ios-app/*.xcworkspace
+ios-app/**/*.xcuserstate
