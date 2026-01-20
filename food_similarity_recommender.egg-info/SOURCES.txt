@@ -1,0 +1,17 @@
+README.md
+setup.py
+food_similarity_recommender.egg-info/PKG-INFO
+food_similarity_recommender.egg-info/SOURCES.txt
+food_similarity_recommender.egg-info/dependency_links.txt
+food_similarity_recommender.egg-info/top_level.txt
+model/__init__.py
+model/embed.py
+model/load_data.py
+model/pipeline.py
+model/preprocess.py
+model/similarity.py
+scripts/__init__.py
+scripts/run_pipeline.py
+tests/__init__.py
+tests/test_load_data.py
+tests/test_setup.py
