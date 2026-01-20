@@ -1,5 +1,9 @@
 # food-similarity-recommender
 
-This project uses ML/NLP to recommend foods based on similarity in ingredients and preparation style. iOS app demo in `ios-app/`.
+A fun little ML project that helps picky eaters (or anyone curious) discover new foods by suggesting dishes similar to ones they already like.  
 
-Data is from: https://eightportions.com/datasets/Recipes/#fn:1
+It analyzes recipe ingredients and instructions using NLP to find “taste twins.”  
+
+iOS demo lives in `ios-app/`.  
+
+Data from [EightPortions Recipes Dataset](https://eightportions.com/datasets/Recipes/#fn:1).
