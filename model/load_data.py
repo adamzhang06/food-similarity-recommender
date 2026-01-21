@@ -21,8 +21,8 @@ def load_recipes(path):
 
 # CODE FOR TESTING: ADDED KEYBOARD SHORTCUT FOR SHIFT + ENTER TO SAVE AND RUN FILE
 
-recipes = load_recipes("data/raw/recipes_raw_nosource_ar.json")
+# recipes = load_recipes("data/raw/recipes_raw_nosource_ar.json")
 
-print(f"Loaded {len(recipes)} recipes")
-print("\nFirst recipe:")
-print(recipes[0])
+# print(f"Loaded {len(recipes)} recipes")
+# print("\nFirst recipe:")
+# print(recipes[0])
