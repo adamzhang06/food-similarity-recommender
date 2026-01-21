@@ -10,11 +10,12 @@ def load_recipes(path):
     for _, recipe in data.items():
 
         # There seemed to be some incomplete data entries, so I needed to add this check
-        if recipe and 'title' in recipe and 'ingredients' in recipe and 'instructions' in recipe:
+        if recipe and 'title' in recipe and 'ingredients' in recipe and 'instructions' in recipe and 'picture_link' in recipe:
             recipes.append({
                 'title': recipe['title'],
                 'ingredients': recipe['ingredients'],
-                'instructions': recipe['instructions']
+                'instructions': recipe['instructions'],
+                'picture_link': recipe['picture_link']
             })
 
     return recipes
