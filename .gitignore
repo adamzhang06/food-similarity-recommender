@@ -16,3 +16,6 @@ ios-app/*.xcworkspace
 ios-app/**/*.xcuserstate
 
 food_similarity_recommender.egg-info
+
+# recipe_box
+recipe_box
