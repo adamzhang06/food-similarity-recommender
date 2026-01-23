@@ -47,6 +47,9 @@ json_files = [
 
 master_recipes = combine_datasets(json_files)
 
-print(f"Total recipes: {len(master_recipes)}")
+output_path = "data/processed/master_recipes.json"
+with open(output_path, "w", encoding="utf-8") as f:
+    json.dump(master_recipes, f, ensure_ascii=False, indent=2)
 
-print(master_recipes[100])
+# print(f"Total recipes: {len(master_recipes)}")
+# print(master_recipes[100])

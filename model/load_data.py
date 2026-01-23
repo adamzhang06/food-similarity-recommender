@@ -16,13 +16,11 @@ def load_recipes(path):
             and recipe.get("title")
             and recipe.get("ingredients")
             and recipe.get("instructions")
-            and recipe.get("picture_link")
         ):
             recipes.append({
                 'title': recipe['title'],
                 'ingredients': recipe['ingredients'],
-                'instructions': recipe['instructions'],
-                'picture_link': recipe['picture_link']
+                'instructions': recipe['instructions']
             })
 
     return recipes
