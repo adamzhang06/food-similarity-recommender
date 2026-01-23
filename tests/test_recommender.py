@@ -15,4 +15,4 @@ if __name__ == "__main__":
     # 4. Print top recommendations
     print(f"\nTop recommendations for {query}:")
     for i, r in enumerate(top_recipes, 1):
-        print(f"{i}. {r['title']}")
+        print(f"{i}. {r['title']} and {r['ingredients']}")

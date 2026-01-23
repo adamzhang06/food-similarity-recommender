@@ -6,7 +6,7 @@ from model.embed import embed_texts
 # Full pipeline to load, preprocess, and embed recipes
 def run_pipeline(json_path):
     # Load recipes
-    recipes = load_recipes(json_path)
+    recipes = load_recipes(json_path)  
 
     for recipe in recipes:
         # Clean ingredients

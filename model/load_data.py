@@ -10,7 +10,14 @@ def load_recipes(path):
     for _, recipe in data.items():
 
         # There seemed to be some incomplete data entries, so I needed to add this check
-        if recipe and 'title' in recipe and 'ingredients' in recipe and 'instructions' in recipe and 'picture_link' in recipe:
+        # I only want the recipes that have photos: ~70,000
+        if (
+            recipe
+            and recipe.get("title")
+            and recipe.get("ingredients")
+            and recipe.get("instructions")
+            and recipe.get("picture_link")
+        ):
             recipes.append({
                 'title': recipe['title'],
                 'ingredients': recipe['ingredients'],
