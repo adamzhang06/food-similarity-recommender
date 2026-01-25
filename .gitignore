@@ -4,18 +4,17 @@ __pycache__/
 *.pyc
 
 # Data
-data/raw/
-data/processed/
+legacy/data
 
 # macOS
 .DS_Store
 
 # Xcode
-ios-app/build/
-ios-app/*.xcworkspace
-ios-app/**/*.xcuserstate
+legacy/ios-app/build/
+legacy/ios-app/*.xcworkspace
+legacy/ios-app/**/*.xcuserstate
 
-food_similarity_recommender.egg-info
+legacy/food_similarity_recommender.egg-info
 
 # recipe_box
-recipe_box
+legacy/recipe_box
