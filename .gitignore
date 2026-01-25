@@ -3,6 +3,7 @@ venv/
 __pycache__/
 *.pyc
 
+# legacy
 # Data
 legacy/data
 
@@ -18,3 +19,8 @@ legacy/food_similarity_recommender.egg-info
 
 # recipe_box
 legacy/recipe_box
+
+# baseline
+
+baseline/.env
+baseline/.dockerignore
