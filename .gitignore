@@ -3,25 +3,25 @@ venv/
 __pycache__/
 *.pyc
 
-# legacy
+# misc/legacy
 # Data
-legacy/data
+misc/legacy/data
 
 # macOS
 .DS_Store
 
 # Xcode
-legacy/ios-app/build/
-legacy/ios-app/*.xcworkspace
-legacy/ios-app/**/*.xcuserstate
+misc/legacy/ios-app/build/
+misc/legacy/ios-app/*.xcworkspace
+misc/legacy/ios-app/**/*.xcuserstate
 
-legacy/food_similarity_recommender.egg-info
+misc/legacy/food_similarity_recommender.egg-info
 
 # recipe_box
-legacy/recipe_box
-
-# baseline
-baseline/.env
-baseline/.dockerignore
+misc/legacy/recipe_box
 
 baseline/data
+# backend (moved from baseline)
+backend/.env
+backend/.dockerignore
+backend/data
