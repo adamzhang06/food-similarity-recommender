@@ -21,6 +21,7 @@ legacy/food_similarity_recommender.egg-info
 legacy/recipe_box
 
 # baseline
-
 baseline/.env
 baseline/.dockerignore
+
+baseline/data
