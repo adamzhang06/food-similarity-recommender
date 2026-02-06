@@ -111,20 +111,20 @@ def get_recipe_details(recipe_id):
             return None
 
 
-# --- usage example ---
-if __name__ == "__main__":
-    # * 1. Run Ingestion (Only need to do this when data changes)
-    # ingest_data("backend/data/recipes_data.csv")
-
-    # * 2. Simulate User Selection
-    # ^ Recipe ID #42 as an example
-    selected_id = 42
-    recipes = get_recipe_details(selected_id)
-
-    if recipes:
-        print(f"--- Recipe Found: {recipes['title']} ---")
-        print(f"Ingredients: {recipes['ingredients'][:50]}...")  # preview
-        print(f"Directions: {recipes['directions'][:50]}...")  # preview
-        print(f"NER: {recipes['ner'][:50]}...")  # preview
-    else:
-        print("Recipe not found.")
+# # --- usage example ---
+# if __name__ == "__main__":
+#     # * 1. Run Ingestion (Only need to do this when data changes)
+#     # ingest_data("backend/data/recipes_data.csv")
+    
+#     # * 2. Simulate User Selection
+#     # ^ Recipe ID #42 as an example
+#     selected_id = 42
+#     recipes = get_recipe_details(selected_id)
+    
+#     if recipes:
+#         print(f"--- Recipe Found: {recipes['title']} ---")
+#         print(f"Ingredients: {recipes['ingredients'][:50]}...")  # preview
+#         print(f"Directions: {recipes['directions'][:50]}...")  # preview
+#         print(f"NER: {recipes['ner'][:50]}...")  # preview
+#     else:
+#         print("Recipe not found.")
