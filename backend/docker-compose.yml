@@ -2,7 +2,7 @@
 services:
   db:
     image: postgres:16
-    container_name: baseline_postgres
+    container_name: backend_postgres
     environment:
       POSTGRES_USER: fooduser
       POSTGRES_PASSWORD: foodpass
