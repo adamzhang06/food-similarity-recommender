@@ -27,3 +27,4 @@ baseline/data
 backend/.env
 backend/.dockerignore
 backend/data
+backend/embeddings
